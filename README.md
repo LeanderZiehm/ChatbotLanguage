@@ -1,7 +1,5 @@
 # ChatBotOpenAISchool
 
-Still needed:  bootstrap 5
-
 You need to add a .env file and past in 
 OPENAI_API_KEY="and here your OpenAI Key" to  "IT Chatbot\ChatBotOpenAISchool\OpenAI\.env"
 
