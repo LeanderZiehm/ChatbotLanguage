@@ -1,4 +1,3 @@
-import { response } from "express";
 
 export function generateResponse(message) {
     // const greetings = ['Hi', 'Hello', 'Hey'];
