@@ -1,0 +1,37 @@
+
+
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings", "good morning", "good evening", "good afternoon", "Hallo", "Guten Tag", "Guten Morgen", "Guten Abend", "Wie geht's", "Wie geht es Ihnen", "Grüße", "Servus"],
+        "responses": ["Hallo!", "Good to see you again!", "Hi there, how can I help?", "Hallo! Wie kann ich Ihnen helfen?", "Guten Tag! Wie kann ich Ihnen helfen?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "See you!", "Have a nice day", "Bye! Come back again soon.", "Tschüss", "Auf Wiedersehen", "Bis später", "Bis bald", "Mach's gut", "Schönen Tag noch", "Auf Wiederhören"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "Bis bald!", "Schönen Tag noch!", "Auf Wiedersehen!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Danke", "Vielen Dank", "Danke schön", "Danke dir", "Dankeschön"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "Gerne geschehen!", "Kein Problem!", "Ich helfe gerne!"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["Who are you?", "What are you?", "Who you are?", "Wer bist du?", "Was machst du hier?", "Was ist dein Zweck?"],
+        "responses": ["I am a bot, I am here to help you learn German", "Ich bin ein Bot und bin hier, um Ihnen beim Deutschlernen zu helfen."]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "What should I call you?", "Do you have a name?", "Wie ist dein Name?", "Wie soll ich dich nennen?", "Hast du einen Namen?"],
+        "responses": ["You can call me German Teacher.", "I'm German Teacher!", "I'm German Teacher, nice to meet you!", "Sie können mich Deutschlehrer nennen.", "Ich bin Deutschlehrer!", "Ich bin Deutschlehrer, schön, Sie kennenzulernen!"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please", "Können Sie mir helfen?", "Ich brauche Hilfe", "Könnten Sie mir bitte helfen?"],
+        "responses": ["Tell me how can assist you", "Tell me your problem to help you", "Yes sure, How can I help you?", "Sagen Sie mir, wie ich helfen kann", "Sagen Sie mir Ihr Problem, um Ihnen zu helfen", "Ja, klar. Wie kann ich helfen?"]
+      }
+
+    ]}
+
