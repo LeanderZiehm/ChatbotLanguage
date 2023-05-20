@@ -30,7 +30,79 @@
         "tag": "help",
         "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please", "Können Sie mir helfen?", "Ich brauche Hilfe", "Könnten Sie mir bitte helfen?"],
         "responses": ["Tell me how can assist you", "Tell me your problem to help you", "Yes sure, How can I help you?", "Sagen Sie mir, wie ich helfen kann", "Sagen Sie mir Ihr Problem, um Ihnen zu helfen", "Ja, klar. Wie kann ich helfen?"]
-      }
+      },
 
+      {
+        "tag": "vocabularyPractice",
+        "patterns": ["practice", "vocabulary", "words", "exercises"],
+        "responses": [
+          "Sure! Let's practice some vocabulary. I'll provide you with words to learn.",
+          "Absolutely! Enhancing your vocabulary is crucial. Let's get started with some exercises.",
+          "Vocabulary practice is essential for language learning. Get ready for some word exercises!"
+        ]
+      },
+      {
+        "tag": "grammarAssistance",
+        "patterns": ["help", "grammar", "questions", "explanations"],
+        "responses": [
+          "Of course! I can help you with grammar. Ask me any questions or let's practice together.",
+          "Grammar can be challenging, but I'm here to assist you. Feel free to ask me any grammar-related questions.",
+          "Improving your grammar skills is important. Let's dive into some grammar practice!"
+        ]
+      },
+      {
+        "tag": "conversationPractice",
+        "patterns": ["practice", "conversation", "dialogue", "speaking"],
+        "responses": [
+          "Great! Let's practice some conversations in German. I'll provide prompts and we can have a dialogue.",
+          "Practicing conversations is an excellent way to enhance your speaking skills. Let's have some dialogues!",
+          "Improving your speaking skills through conversation practice is key. Let's get started!"
+        ]
+      },
+      {
+        "tag": "pronunciationGuidance",
+        "patterns": ["improve", "pronunciation", "practice", "tips"],
+        "responses": [
+          "Sure! Let's work on your pronunciation. I'll provide audio samples and help you improve.",
+          "Pronunciation is important for effective communication. Let's practice pronunciation together.",
+          "Enhancing your pronunciation skills can make a big difference. Let's focus on pronunciation exercises!"
+        ]
+      },
+      {
+        "tag": "culturalInsights",
+        "patterns": ["learn", "culture", "customs", "traditions"],
+        "responses": [
+          "Certainly! I can share interesting insights about German culture, customs, and traditions.",
+          "Exploring German culture can deepen your understanding of the language. Let's dive into some cultural tips!",
+          "Understanding German culture is crucial for language learning. Let's learn about customs and traditions!"
+        ]
+      },
+      {
+        "tag": "languageResources",
+        "patterns": ["resources", "learning", "materials", "recommendations"],
+        "responses": [
+          "Absolutely! I can recommend various resources such as textbooks, online courses, and language exchange platforms to aid your German learning journey.",
+          "Accessing the right resources is essential for effective language learning. Here are some recommendations to enhance your German skills.",
+          "To support your German learning, I can provide you with a list of helpful resources including textbooks, online courses, and language exchange platforms."
+        ]
+      },
+      {
+        "tag": "errorCorrection",
+        "patterns": ["correct", "mistakes", "feedback", "improve"],
+        "responses": [
+          "Of course! I can help you identify and correct mistakes in your German. Share your written or spoken text, and I'll provide feedback.",
+          "Improving your German requires identifying and correcting mistakes. Feel free to share your written or spoken text, and I'll offer error feedback.",
+          "Don't worry about making mistakes; it's part of the learning process. Share your text with me, and I'll assist you with error correction."
+        ]
+      },
+      {
+        "tag": "progressTracking",
+        "patterns": ["track", "progress", "learning", "improvement"],
+        "responses": [
+          "Certainly! I can keep track of your learning progress and provide you with a report on your improvement.",
+          "Tracking your progress is an excellent way to stay motivated. I'll monitor your improvement and provide regular progress reports.",
+          "Monitoring your progress is important to see how far you've come. I'll help you track your learning journey and provide progress reports."
+        ]
+      }
     ]}
 
