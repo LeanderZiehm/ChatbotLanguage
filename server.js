@@ -1,7 +1,7 @@
 import { Server } from 'socket.io';
 import express from 'express';
 import { createServer } from 'http';
-import { generateResponse } from './bot.js';
+import { testKeywordSpotting } from './bot.js';
 
 const app = express(); 
 const server = createServer(app); 
@@ -15,7 +15,7 @@ io.on('connection', socket => {
 	socket.emit('start');	
 
 	socket.on('clientRequest', async message => {
-		let responseText = generateResponse(message);
+		let responseText = testKeywordSpotting(message);
 		socket.emit('serverResponse',responseText );
 	  });
 	
