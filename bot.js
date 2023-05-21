@@ -158,7 +158,7 @@ function processUserInput(userInput) {
     return randomResponse;
   } else {
     // Handle the case when no intent is triggered
-    return "Sorry, I couldn't understand your input.";
+    return "Sorry, I did not understand. Can you rephrase it?";
   }
 }
 
