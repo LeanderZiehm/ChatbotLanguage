@@ -12,8 +12,15 @@ const PORT = 3000 || process.env.PORT;
 
 app.use(express.static('public')); // Displays the index.html file in the public folder
 
+let isWelcomeMessageSent = false;
+
 io.on('connection', socket => {
   socket.emit('start');
+
+  if (!isWelcomeMessageSent) {
+    socket.emit('serverResponse', 'Hello! I am your German Tutor chatbot. How can I assist you today?');
+    isWelcomeMessageSent = true;
+  }
 
   socket.on('clientRequest', message => {
     const responseText = processUserInput(message);

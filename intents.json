@@ -235,24 +235,74 @@
         ]
      },
      {
-        "tag":"languageResources",
-        "patterns":[
-           "resources",
-           "learning",
-           "materials",
-           "recommendations",
-           "learning resources",
-           "study materials",
-           "resource recommendations",
-           "language learning"
-        ],
-        "responses":[
-           "Absolutely! I can recommend various resources such as textbooks, online courses, and language exchange platforms to aid your German learning journey.",
-           "Accessing the right resources is essential for effective language learning. Here are some recommendations to enhance your German skills.",
-           "To support your German learning, I can provide you with a list of helpful resources including textbooks, online courses, and language exchange platforms.",
-           "Let's explore resources to enhance your German learning. I can recommend textbooks, online courses, and language exchange platforms."
-        ]
-     },
+      "tag": "languageResources",
+      "patterns": [
+        "resources",
+        "learning",
+        "materials",
+        "recommendations",
+        "learning resources",
+        "study materials",
+        "resource recommendations",
+        "language learning"
+      ],
+      "responses": [
+        "Absolutely! I can recommend various resources such as textbooks, online courses, and language exchange platforms to aid your German learning journey. What specific type of resource are you interested in?",
+        "Accessing the right resources is essential for effective language learning. Here are some recommendations to enhance your German skills. Let me know which type of resource you'd like more information on.",
+        "To support your German learning, I can provide you with a list of helpful resources including textbooks, online courses, and language exchange platforms. Please let me know which specific resource you'd like to explore further.",
+        "Let's explore resources to enhance your German learning. I can recommend textbooks, online courses, and language exchange platforms. What type of resource are you looking for?"
+      ],
+      "context_set": "languageResources"
+    },
+    {
+      "tag": "germanTextbooks",
+      "patterns": ["textbooks", "books", "recommended textbooks", "best german textbooks", "textbook recommendations"],
+      "responses": [
+        "Sure! Here are some highly recommended German textbooks: [Provide specific textbook recommendations and their features]"
+      ]
+    },
+    {
+      "tag": "germanOnlineCourses",
+      "patterns": ["online courses", "courses", "german courses", "recommended online courses", "best german online courses"],
+      "responses": [
+        "Certainly! Here are some popular online platforms offering German courses: [Recommend online course platforms and their features]"
+      ]
+    },
+    {
+      "tag": "germanLanguageExchange",
+      "patterns": ["language exchange", "language partners", "language exchange platforms", "find a language partner"],
+      "responses": [
+        "Language exchange is a great way to practice German. Here are some language exchange platforms: [Provide information about language exchange platforms and tips for finding language partners]"
+      ]
+    },
+    {
+      "tag": "germanLanguageApps",
+      "patterns": ["language apps", "apps", "german learning apps", "language learning apps", "mobile apps"],
+      "responses": [
+        "Sure! Here are some popular mobile apps for learning German: [Recommend mobile apps for German learning and their features]"
+      ]
+    },
+    {
+      "tag": "germanPodcasts",
+      "patterns": ["podcasts", "german podcasts", "recommended podcasts", "best german podcasts"],
+      "responses": [
+        "Absolutely! Here are some recommended German podcasts for language learning: [Provide a list of recommended German podcasts]"
+      ]
+    },
+    {
+      "tag": "germanOnlineCommunities",
+      "patterns": ["communities", "german learning forums", "language learning communities", "german forums"],
+      "responses": [
+        "Certainly! Here are some online communities and forums for German learners: [Recommend online communities and forums]"
+      ]
+    },
+    {
+      "tag": "germanLearningWebsites",
+      "patterns": ["learning websites", "websites", "german learning websites", "recommended websites", "best german learning websites"],
+      "responses": [
+        "Of course! Here are some recommended websites and blogs for learning German: [Provide a list of recommended websites and blogs]"
+      ]
+    },
      {
         "tag":"errorCorrection",
         "patterns":[
@@ -270,25 +320,6 @@
            "Improving your German requires identifying and correcting mistakes. Feel free to share your written or spoken text, and I'll offer error feedback.",
            "Don't worry about making mistakes; it's part of the learning process. Share your text with me, and I'll assist you with error correction.",
            "I'm here to help with error correction. Feel free to share your writing or speaking, and I'll provide feedback to help you improve."
-        ]
-     },
-     {
-        "tag":"progressTracking",
-        "patterns":[
-           "track",
-           "progress",
-           "learning",
-           "improvement",
-           "learning progress",
-           "track my progress",
-           "improvement tracking",
-           "progress report"
-        ],
-        "responses":[
-           "Certainly! I can keep track of your learning progress and provide you with a report on your improvement.",
-           "Tracking your progress is an excellent way to stay motivated. I'll monitor your improvement and provide regular progress reports.",
-           "Monitoring your progress is important to see how far you've come. I'll help you track your learning journey and provide progress reports.",
-           "Let's track your learning progress together. I'll provide insights and progress reports to help you stay motivated."
         ]
      }
   ]
