@@ -1,0 +1,80 @@
+body {
+        background-color: #1a1a1a;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+      }
+       /* 
+textarea{ How do I 
+
+        background-color: #444444;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 24px;
+        height: 60px;
+        margin: 20px;
+        padding: 0;
+        transition: all 0.2s ease-in-out;
+        width: 100%;
+      
+}
+ */
+
+ .fas {
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+}
+
+.bot {
+  background-color: #444444;
+}
+.user {
+  background-color: #282828;
+}
+
+
+
+      #chatSpace {
+        background-color: #282828;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        margin-left: 20%;
+        margin-right: 20%;
+
+        width: auto ;
+     
+      }
+
+      #send_btn {
+        background-color: #444444;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 24px;
+        height: 60px;
+        margin: 20px;
+        padding: 0;
+        transition: all 0.2s ease-in-out;
+        width: 60px;
+      }
+      /*  active */
+      #send_btn:hover {
+        background-color: #ffffff;
+        color: #000000;
+        transform: scale(1.1);
+      }
+
+      .input-group{
+        position:absolute; bottom:0;
+      }
+
+
