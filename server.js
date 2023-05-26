@@ -13,7 +13,9 @@ const PORT = 3000 || process.env.PORT;
 app.use(express.static('public')); // Displays the index.html file in the public folder
 
 io.on('connection', socket => {
-  socket.emit('start');
+  socket.emit('start');//clears chat space on start
+  const responseText = processUserInput("[start]");//reqests start message from bot.js
+  socket.emit('serverResponse', responseText);
 
   socket.on('clientRequest', message => {
     const responseText = processUserInput(message);

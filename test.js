@@ -1,6 +1,31 @@
-import { generateResponse } from './bot.js';
+import { processUserInput } from './bot.js';
 
-// Test the function with a sample message
-const message = 'Hi, can you help me with something?';
-const response = generateResponse(message);
+
+
+
+
+
+const response = processUserInput("[start]");
+
+const message = 'Hi';
+
 console.log(response);
+
+for (var i = 0; i < 7; i++) {
+
+//  console.log("message: "+message);
+  const response = processUserInput(message);
+  console.log(i+" input:"+ message+" response: "+response);
+}
+// const response = processUserInput(message);
+// console.log("response: "+response);
+
+
+
+
+
+
+
+
+
+
