@@ -1,0 +1,13 @@
+.chat_window {
+    width: calc(100% - 20px);
+    max-width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 30px auto;
+    left: 50%;
+    top: 30%;
+    transform: translateX(0%) translateY(0%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background-color: #f8f8f8;
+    overflow: hidden;
+}

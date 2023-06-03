@@ -23,3 +23,7 @@ https://platform.openai.com/docs/api-reference/chat/create
 
 
 To use import in js you need to add   "type": "module", to package.json
+
+
+
+FIREFOX Cntr + Shift + M = Responsive view

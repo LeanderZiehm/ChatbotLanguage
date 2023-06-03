@@ -6,7 +6,7 @@ const end = '</div>'
 
 
 
-socket.on('start', data => {
+socket.on('[start]', data => {
     //clear chat space on start
     $('#chatSpace').html('');
 
