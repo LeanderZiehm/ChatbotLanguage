@@ -14,7 +14,7 @@ function Chatbot() {
      */
     const [messages, setMessages] = useState([
         {
-        text: "HOW CAN WE REMOVE THIS?",
+        text: "HOW CAN WE REMOVE THIS??",
         position: "left"
         }       
 ]);
